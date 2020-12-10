@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>D3 Scatter Plot Graph</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Script Tags -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+
+  <body>
+    <svg id="canvas">
+      <text id="title" x="100" y="20">
+        Doping in Professional Bicycle Racing
+      </text>
+    </svg>
+    <div id="legend">
+      TIME vs YEAR <br />
+      Red = Riders with Doping Allegations | Green = No Doping Allegations
+    </div>
+    <div id="tooltip"></div>
+  </body>
+  <!-- JavaScript -->
+  <script defer src="js/main.js"></script>
+</html>
